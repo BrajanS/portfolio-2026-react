@@ -1,11 +1,56 @@
 {
-  "moi": {},
+  "moi": {
+    "identite": "Brajan SZCZAP",
+    "github": ""
+  },
   "permis": {
     "Permi B": "En cours de passage"
   },
-  "profil-pro": "",
-  "formation": {},
-  "parcous-pro": {},
-  "competences": [],
-  "langues": []
+  "profil-pro": "Je suis: Sérieux, autonome, rigoureux, et intègre",
+  "formation": [
+    {
+      "titre": "Certifié - Formation Titre professionnel, Développeur web et web mobile",
+      "date": "03/2025 au 12/2025",
+      "lieu": " - AFEC - Pau"
+    },
+    {
+      "titre": "Formation Bootcamp, Développeur web REACT",
+      "date": "2024",
+      "lieu": " - La Fabrique Numérique Paloise (STEP) - Pau"
+    },
+    {
+      "titre": "Diplomé - BTS Systèmes Numériques option IR (« Informatique et Réseau »)",
+      "date": "2021 → 2023",
+      "lieu": " - Lycée Saint-Cricq - Pau"
+    },
+    {
+      "titre": "Diplomé - BAC Systèmes Numériques option C (RISC « Réseau Informatique et Systèmes  Communicants »)",
+      "date": "2018 → 2021",
+      "lieu": " - Lycée Guynemer - Oloron-Sainte-Marie"
+    }
+  ],
+  "parcous-pro": [{}],
+  "competences": [
+    "SQL",
+    "REACT",
+    "JavaScript",
+    "Node.js",
+    "CSS",
+    "HTML",
+    "C++",
+    "C",
+    "Vlan",
+    "Configuration de commutateurs",
+    "Configuration de routeurs",
+    "Adressage IP",
+    "Liaison du réseau",
+    "Gestion de réseaux",
+    "Montage d'ordinateurs",
+    "Administration",
+    "Gestion de sessions"
+  ],
+  "langues": [
+    { "langue": "Polonais", "niveau": "Courant" },
+    { "langue": "Anglais", "niveau": "Avancé (C1+)" }
+  ]
 }
