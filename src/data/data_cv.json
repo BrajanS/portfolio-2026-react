@@ -29,7 +29,47 @@
       "lieu": " - Lycée Guynemer - Oloron-Sainte-Marie"
     }
   ],
-  "parcous-pro": [{}],
+  "parcous-pro": [
+    {
+      "position": "Stagiaire,",
+      "date": "09/2025 - 12/2025",
+      "lieu": "HypersColoc, Pau",
+      "taches": [
+        "Création d’un site web avec un autre stagiaire pour l’association, d’après leurs besoins et nos propositions."
+      ]
+    },
+    {
+      "position": "Employé libre-service,",
+      "date": "09/2023 - CDD",
+      "lieu": "Leclerc, Mourenx",
+      "taches": ["Travail en rayons, déplacements de produits"]
+    },
+    {
+      "position": "Stagiaire,",
+      "date": "05/2022 - 07/2022",
+      "lieu": "CyberBase du MI[X], Mourenx",
+      "taches": [
+        "Configuration d’un LAN pour une activité programmée",
+        "Installation de la distribution linux “Mageia 4” sur des vieux Laptops des clients pour améliorer les performances"
+      ]
+    },
+    {
+      "position": "Stagiaire,",
+      "date": "11/2020 - 11/2020",
+      "lieu": "CyberBase du MI[X], Mourenx",
+      "taches": [
+        "Mise à jour d’ordinateurs et découverte d’un petit fragment du language HTML, pour créer un Quiz sur le thème de la pollution"
+      ]
+    },
+    {
+      "position": "Stagiaire,",
+      "date": "06/2019 - 07/2019",
+      "lieu": "Mairie de Mourenx, Mourenx",
+      "taches": [
+        "Installations des logiciels et des distributions “.iso” Windows via USB vers des PC portables d’écoles."
+      ]
+    }
+  ],
   "competences": [
     "SQL",
     "REACT",

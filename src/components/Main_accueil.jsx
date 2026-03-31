@@ -21,7 +21,20 @@ function MainComponent() {
           {/* PARCOURS PRO */}
           <div>
             <p>PARCOURS PROFESSIONNEL</p>
-            <ul></ul>
+            <ul>
+              {data["parcous-pro"].map((parcoursData, index) => (
+                <li key={index}>
+                  <span>{parcoursData.position}</span>
+                  <span>{parcoursData.date}</span>
+                  <p>{parcoursData.lieu}</p>
+                  <ul>
+                    {parcoursData.taches.map((tache, tIndex) => (
+                      <li key={tIndex}>{tache}</li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
         <section id="cv-info">
@@ -33,11 +46,28 @@ function MainComponent() {
             <span>Permis B: {data.permis["Permi B"]}</span>
           </div>
           {/* PERSONALITÉ */}
-          <div></div>
+          <div>
+            <p>PROFIL PROFESSIONNEL</p>
+            <span>{data["profil-pro"]}</span>
+          </div>
           {/* COMPETENCES */}
-          <div></div>
+          <div>
+            <p>COMPETENCES</p>
+            <ul>
+              {data.competences.map((competence, index) => (
+                <li key={index}>{competence}</li>
+              ))}
+            </ul>
+          </div>
           {/* LANGUES */}
-          <div></div>
+          <div>
+            <p>LANGUES</p>
+            <ul>
+              {data.langues.map((langObj, index) => (
+                <li key={index}>{langObj.langue}</li>
+              ))}
+            </ul>
+          </div>
         </section>
       </div>
     </main>

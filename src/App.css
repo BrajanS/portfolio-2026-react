@@ -29,4 +29,17 @@
   display: flex;
   justify-content: space-evenly;
   font-family: Calibri;
+  text-align: start;
+}
+
+#cv-main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#cv-info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
