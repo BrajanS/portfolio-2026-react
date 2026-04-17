@@ -33,12 +33,27 @@
 }
 
 #cv-main {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
+#cv-main > div > ul > li > :first-child {
+  font-weight: 700;
+}
+
+#cv-main > div > p:first-of-type,
+#cv-info > div > p:first-of-type {
+  color: #2c5a77;
+  font-weight: 700;
+  font-size: larger;
+}
+
 #cv-info {
+  box-sizing: border-box;
+  padding: 20px;
+  border-left: 2px solid black;
   display: flex;
   flex-direction: column;
   gap: 50px;
